@@ -175,8 +175,8 @@ Product (1) ----- (N) Order
 - 조회 성능 향상
 - 불필요한 SQL 실행 감소
 
-![주문 목록 조회](test-images/15-3.도전1_주문목록조회2_pm.png)
-![주문 목록 조회](test-images/15-4.도전1_N+1해결_serverlog.png)
+![주문 목록 조회](test-images/도전1test/15-3.도전1_주문목록조회2_pm.png)
+![주문 목록 조회](test-images/도전1test/15-4.도전1_N+1해결_serverlog.png)
 ---
 
 ### Pessimistic Lock
@@ -188,7 +188,8 @@ Product (1) ----- (N) Order
 - 동시성 문제 방지
 - 재고 데이터 정합성 보장
 - 재고 음수 발생 방지
-![재고 차감 테스트](test-images/16-4.도전2_재고0의 두번째주문(재고부족)_pm.png)
+    
+![재고 차감 테스트](test-images/도전2test/16-4.도전2_재고0의 두번째주문(재고부족)_pm.png)
 ---
 
 ### Custom Exception & GlobalExceptionHandler
