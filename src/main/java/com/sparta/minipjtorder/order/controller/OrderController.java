@@ -50,7 +50,7 @@ public class OrderController {
         return orderService.findOne(id);
     }
 
-    @Operation(summary = "주문 목록 조회 (페이지네이션)")
+    @Operation(summary = "주문 목록 조회 (Pageable)")
     @GetMapping
     public Page<OrderResponse> findAll(
             @PageableDefault(size = 10)
