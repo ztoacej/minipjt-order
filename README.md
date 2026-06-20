@@ -174,9 +174,9 @@ Product (1) ----- (N) Order
 - N+1 문제 방지
 - 조회 성능 향상
 - 불필요한 SQL 실행 감소
-
-![주문 목록 조회](test-images/15-3.도전1_주문목록조회2_pm.png)
-![주문 목록 조회](test-images/15-4.도전1_N+1해결_serverlog.png)
+- 8-1. 주문 목록 조회 관련 테스트 이미지(참조시 이미지 파일명 인코딩 문제로 수정 예정)
+  ![주문 목록 조회](./test-images/orders-test/15-7-worktry1-select-orderlist2-pm.png)
+  ![주문 목록 조회](./test-images/orders-test/15-8-worktry1-serverlog.png)
 ---
 
 ### Pessimistic Lock
@@ -188,7 +188,9 @@ Product (1) ----- (N) Order
 - 동시성 문제 방지
 - 재고 데이터 정합성 보장
 - 재고 음수 발생 방지
-![재고 차감 테스트](test-images/16-4.도전2_재고0의 두번째주문(재고부족)_pm.png)
+- 9-1. 재고 1인 상품에 대한 주문 2번 시도 결과 테스트 이미지
+  ![재고 차감 결과](./test-images/orders-test/16-3-worktry2-stock1-create-first-order-pm.png)
+  ![재고 차감 결과](./test-images/orders-test/16-4-worktry2-stock0-create-second-order-pm.png)
 ---
 
 ### Custom Exception & GlobalExceptionHandler
