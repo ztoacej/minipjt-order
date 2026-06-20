@@ -174,7 +174,7 @@ Product (1) ----- (N) Order
 - N+1 문제 방지
 - 조회 성능 향상
 - 불필요한 SQL 실행 감소
-- 8-1. 주문 목록 조회 관련 테스트 이미지(참조시 이미지 파일명 인코딩 문제로 수정 예정)
+- 8-1. 주문 목록 조회 관련 테스트 이미지
   ![주문 목록 조회](./test-images/orders-test/15-7-worktry1-select-orderlist2-pm.png)
   ![주문 목록 조회](./test-images/orders-test/15-8-worktry1-serverlog.png)
 ---
